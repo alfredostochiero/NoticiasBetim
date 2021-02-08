@@ -94,11 +94,12 @@ h3 {
 }
 
 #duas-colunas #primario {
-    width: 550px;
+    width: 500px;
     float: left;
     margin: 0 0 20px 0px;
 
 }
+
 
 #uma-coluna #primario {
     width: 700px;
