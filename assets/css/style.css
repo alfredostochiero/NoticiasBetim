@@ -73,8 +73,21 @@ ul {
 
 }
 
+/* estilo para cabeçalhos */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    padding: 3px;
+    
+}
+.destaque h3 {
+    background:#b10333 ;
+    color:#fff;
+    font-size: 0.8em;
+}
 #tres-colunas #primario {
-    width: 210px;
+    width: 240px;
     float: left;
     margin: 0 0 20px 195px;
 
@@ -83,7 +96,6 @@ ul {
 #duas-colunas #primario {
     width: 550px;
     float: left;
-    background: blueviolet;
     margin: 0 0 20px 0px;
 
 }
@@ -91,7 +103,6 @@ ul {
 #uma-coluna #primario {
     width: 700px;
     float: left;
-    background: blueviolet;
     margin: 0 0 20px 195px;
 
 }
@@ -99,9 +110,8 @@ ul {
 
 
 #secundario {
-    width: 210px;
+    width: 240px;
     float: left;
-    background: yellow;
     margin: 0  0 20px 15px;
 }
 #lateral {
@@ -109,6 +119,12 @@ ul {
     float: left;
     margin: 0 0 20px -700px;
 }
+
+img {
+    border: 2px solid #dfdfdf;
+    margin-top: 8px;
+}
+
 
 
 .caixa {
@@ -166,11 +182,41 @@ label {
     cursor: pointer;
 }
 
+#lista-noticias li {
+    padding:2px ;
+    border-bottom: 1px solid #ccc;
+    height: 90px;
+}
+#lista-noticias li a img {
+   float: left;
+   margin: 5px;
+
+}
+
+#lista-noticias li a  {
+    text-decoration: none;
+    font-size: 0.8em;
+ 
+ }
+ #lista-noticias li h3  {
+    color: blue;
+    background: white;
+    font-size: 1em;
+ 
+ }
+
+ #lista-noticias li:hover{
+     background-color:#eee;
+     cursor: pointer;
+ }
+ 
+
 #rodape {
     clear: both;
     padding: 20px;
     background: #294c71;
     margin: auto;
     color: white;
+    text-align: center;
 
-
+}
