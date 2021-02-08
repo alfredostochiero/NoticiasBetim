@@ -12,6 +12,7 @@ body {
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
     padding-top: 30px;
+    margin-bottom: 80px;
 }
 
 .logo {
@@ -50,8 +51,53 @@ ul {
     color:#69001d;
 }
 
-.home #navegacao a#home {
+.home #navegacao a#home,
+.economia #navegacao a#economia,
+.saude #navegacao a#saude,
+.fotos #navegacao a#fotos,
+.novidades #navegacao a#novidades
+
+
+{
     color:#fff;
     background: #de003e;
     cursor:text;
 }
+
+/* Área de conteudo */
+
+#conteudo {
+   
+    background: #f5f5f5;
+   
+
+}
+
+#primario {
+    width: 210px;
+    float: left;
+    background: blueviolet;
+    margin: 0 0 20px 195px;
+
+}
+#secundario {
+    width: 210px;
+    float: left;
+    background: yellow;
+    margin: 0  0 20px 15px;
+}
+#lateral {
+    width: 180px;
+    float: left;
+    background: greenyellow;
+    margin: 0 0 20px -700px;
+}
+
+#rodape {
+    clear: both;
+    padding: 20px;
+    background: #294c71;
+    margin: auto;
+    color: white;
+
+
